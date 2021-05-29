@@ -24,6 +24,10 @@ public class Pessoa implements Serializable {
 		this.nome = nome;
 		this.email = email;
 	}
+	
+	public Pessoa() {
+		
+	}
 
 
 	public Integer getId() {
